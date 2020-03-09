@@ -1,6 +1,8 @@
 # Design Specification
 
 ## Common
+- Load the Nunito and Oswald fonts by adding `<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Oswald" rel="stylesheet">` to the `<head>`
+- Add the appropriate code to load `style.css` from the `<head>`
 - Add a title to the document in the `<head>`
 - Headings use font: `'Oswald', sans-serif;`
 - Everything else `'Nunito Sans', sans-serif;`

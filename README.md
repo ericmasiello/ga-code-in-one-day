@@ -10,15 +10,15 @@
 - Padding all the way around `48px`
 - Set the minimum height to `100vh`
 - Background image is `img/hero.png`
-- Background must cover the entire space
+- Background must cover the entire hero section
 - Background image is centered
 
 ## Menu button
 - Font `'Oswald', sans-serif;`
-- Should have a `2px` solid border set to `#333`;
-- Should have left and right padding of `40px` and top and bottom padding of `8px`
 - Font size of `16px`
 - Text color should be `#333`
+- Should have a `2px` solid border set to `#333`;
+- Should have left and right padding of `40px` and top and bottom padding of `8px`
 - On hover, the text color should be `#fff` and the background `#333`
 
 ## Navigation
@@ -39,15 +39,15 @@
 ## Our Story
 - Background color of `#D2DBE0`
 - Padding all the way around of `48px`
-- The headings should be centered but the `Lorem ipsum...` copy should be left aligned
+- The headings should be centered but the "Lorem ipsum..." copy should be left aligned
 
 ## Blog
 - Padding all the way around `48px`
 - Background image is `img/jefferson.png`
 - Background must cover the entire space
 - Background image is centered
-- Set a minimum height of `40vh`
-- The "Read the Blog" button needs to link to another page so it must be an `<a>` instead of a `<button>`
+- Section has a minimum height of `40vh`
+- The "Read the Blog" button needs to link to another page so it must be an `<a>`, not a `<button>`
 - Style the "Read the Blog" link identically to the menu button
 - Only worry about centering the content horizontally (Solving vertically is listed under the bonus section)
 

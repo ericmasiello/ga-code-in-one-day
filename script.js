@@ -10,8 +10,11 @@ function toggleNav(event) {
     if (event.target.tagName !== 'A' && event.target.tagName !== 'BUTTON') {
         return;
     }
+    const menuButton = document.querySelector('.menu');
     const nav = document.querySelector('nav');
-    if (!nav) {
+    const body = document.querySelector('body');
+
+    if (!nav || !menuButton) {
         return;
     }
 
@@ -22,8 +25,10 @@ function toggleNav(event) {
 
     if (isOpen) {
         nav.removeAttribute('style');
+        body.removeAttribute('style');
         return;
     }
 
     nav.style.display = 'flex';
+    body.style.overflow = 'hidden';
 }

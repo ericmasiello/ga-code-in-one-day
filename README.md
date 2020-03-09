@@ -1,6 +1,7 @@
 # Design Specification
 
 ## Common
+- Add a title to the document in the `<head>`
 - Headings use font: `'Oswald', sans-serif;`
 - Everything else `'Nunito Sans', sans-serif;`
 - All text should be color `#333`

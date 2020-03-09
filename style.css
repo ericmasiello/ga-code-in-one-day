@@ -1,0 +1,160 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*
+ * Reusable Styles
+ */
+
+.lead {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.content {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 48px;
+}
+
+/*
+ * Button
+ */
+
+.button {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    border: 2px solid #333;
+    padding: 8px 40px;
+    background-color: transparent;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+}
+
+.button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/*
+ * Nav
+ */
+
+@media (min-width: 720px) {
+    .menu {
+        display: none;
+    }
+}
+
+nav {
+    display: none;
+}
+
+@media (min-width: 720px) {
+    nav {
+        display: block
+    }
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding: 8px 24px;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/*
+ * Hero
+ */
+
+ .hero {
+    background-image: url('img/hero.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+/*
+ * Collection
+ */
+
+@media (min-width: 720px) {
+    .collection img {
+        width: 300px;
+        height: 350px;
+        object-fit: cover;
+    }
+}
+
+/*
+ * Our Story
+ */
+
+.ourstory {
+    background-color: #D2DBE0;
+}
+
+.ourstory .copy {
+    text-align: left;
+}
+
+/*
+ * Blog
+ */
+
+.blog {
+    background-image: url('./img/jefferson.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.blog .content {
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+ * Contact
+ */
+
+ .contact {
+    background-color: #D2DBE0;
+ }
+
+ .contact .content {
+    padding-top: 24px;
+    padding-bottom: 24px;
+ }

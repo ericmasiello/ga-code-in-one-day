@@ -1,5 +1,7 @@
 # Design Specification
 
+**Note:** This document does not contain _all_ the style rules. See if you can fix what's missing 🕵️‍♀️
+
 ## Common
 - Load the Nunito and Oswald fonts by adding `<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Oswald" rel="stylesheet">` to the `<head>`
 - Add the appropriate code to load `style.css` from the `<head>`

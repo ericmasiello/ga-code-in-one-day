@@ -4,12 +4,12 @@
 
 ## Common
 
-- Load the Nunito and Oswald fonts by adding `<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Oswald" rel="stylesheet">` to the `<head>`
-- Add the appropriate code to load `style.css` from the `<head>`
-- Add a title to the document in the `<head>`
+- Load the Nunito and Oswald fonts by adding `<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Oswald" rel="stylesheet">` inside of `<head>...</head>`
+- Add the appropriate code to load `style.css` inside of `<head>...</head>`
+- Add a `<title>`
 - Headings use font: `'Oswald', sans-serif;`
 - Everything else `'Nunito Sans', sans-serif;`
-- All text should be color `#333`
+- All text color should be `#333`
 - Make sure all images have a `max-width: 100%`
 
 ## Hero
@@ -25,11 +25,11 @@
 - Font `'Oswald', sans-serif;`
 - Text color `#333`
 - Font size is 24px
-- When hovering on link, the background color `#333` and text color is `#fff`
+- When hovering on link (`a:hover {}`), the background color `#333` and text color is `#fff`
 - Each link should have left and right padding of `24px` and top and bottom of `8px`
 - Each link should have `16px` of white space separating each link
-- When the screen is at least `720px` wide, the images should be:
-  - Each `<li>...</li>` should be displayed horizontally
+- When the screen is at least `720px` wide, the navigation should:
+  - Display each link horizontally (hint: change the `display` value within your media query)
   - Each link should have a font size of 16px
 
 ## Collection
